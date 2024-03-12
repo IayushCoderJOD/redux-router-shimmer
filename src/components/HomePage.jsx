@@ -12,7 +12,7 @@ const HomePage = () => {
     }, [])
     return (
         <>
-            <div className="flex flex-wrap" >
+            <div className="flex flex-wrap cursor-pointer" >
                 {
                     showShimmer ? (
                         <>
